@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(../img/dl2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(black, blue, white);
+    background-attachment: fixed;
+    background-position: auto;
+    font-family: sans-serif;
+}
+#ninja{
+    position: relative;
+    float: right;
+    height: 43vh;
+    margin-top: 10%;
+    margin-right: 20px;
+}
+#enter{
+    padding: 12px 60px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 67%;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+    box-shadow: grey;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: black;
+    font-family: sans-serif;
+}
+#enter:hover{
+    background-color:grey;
+    color: black;
+    font-weight: bold;
+}
